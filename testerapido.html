@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf=8" />
+	<title>Kewin Cars Show</title>
+	<link rel="stylesheet" type="text/css" href="css.css">
+	<script language="JavaScript">
+	    function protegercodigo() {
+	    if (event.button==2||event.button==3){
+	        alert('Codigo protegido!');}
+	    }
+	    document.onmousedown=protegercodigo
+	</script>
+</head>
+<body>	
+
+		<header class="header">
+			<img src="img/logo.png">
+		</header>
+
+		<aside class="aside">
+			<div class="quemsomos">
+				<h1>Quem somos?</h1>
+			</div>
+				<img src="img/fundo.png">
+		</aside>
+
+		<footer class="rodape">
+			<a href="https://www.facebook.com/kewin.caue" target="_blank">
+				<img src="img/face.png" width="50px">
+			</a>
+			<a href="https://www.instagram.com/kewiin_caue07/" target="_blank">
+				<img src="img/insta.png" width="50px">
+			</a>
+			<a href="https://www.youtube.com/" target="_blank">
+				<img src="img/you.png" width="50px">
+			</a>
+		</footer>
+
+
+	<article class="artigo">
+		<form>
+			<fieldset>
+				<legend>Formulario</legend>
+		<h1><center>Cadastrar</center></h1>
+		<label>
+			<input type="text" placeholder="Digite seu nome">
+			</br>
+			<input type="text" placeholder="Digite seu Email">
+			</br>
+			<input type="password" placeholder="Digite sua senha">
+			</br>
+			<input type="password" placeholder="Repita sua senha">
+			</br>
+			<input class="btn" onclick="alert('Cadastrado com sucesso!')" type="submit" value="Cadastrar">
+		</label>
+		</fieldset>
+	</form>
+	</article>
+</body>
+</html>
